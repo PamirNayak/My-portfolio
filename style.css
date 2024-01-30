@@ -309,6 +309,8 @@ nav ul li a:hover::after{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    /* width: 110%;
+    height: 110%; */
 
 }
 .project-list{
