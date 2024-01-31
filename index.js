@@ -38,4 +38,12 @@ let tabcontents=document.getElementsByClassName("tab-contents")
   })
 
   let msg=document.getElementById("msg");
+
+  var typed=new Typed(".auto-type",{
+    strings:["Java Developer","Web Developer","Software Developer"],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true
+
+  })
   
