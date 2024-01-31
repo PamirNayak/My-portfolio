@@ -18,7 +18,11 @@ body{
     background-image:url(./images/pamirimg.png);
     background-size: cover;
     background-position: center;
+    
+    /* opacity: .5; */
+ 
 }
+
 .container{
     padding: 10px 10%;
 }
@@ -63,6 +67,9 @@ nav ul li a:hover::after{
     margin-top: 20%;
     font-size: 30px;
 
+}
+.header-text p{
+     font-size: 20px;
 }
 .header-text h1{
     font-size: 60px;
@@ -181,6 +188,13 @@ nav ul li a:hover::after{
     animation: progress 0.4s ease-in-out forwards ;
     opacity: 0;
 }
+/* #experience{
+   list-style-type: none;
+} */
+.dob{
+    display: flex;
+    justify-content: space-between;
+}
 @keyframes progress {
    0%{
     width: 0;
@@ -241,6 +255,7 @@ nav ul li a:hover::after{
    color:#b54769;
    font-size: 18px;
 }
+
 .edu p{
     color: white;
     font-size: 16px;
@@ -248,8 +263,25 @@ nav ul li a:hover::after{
 .edu{
     padding-top: 10px;
 }
+
+.colleg p{
+    padding-top: 8px;
+   color: #e0d7da;
+   font-size: 18px;
+}
+.locatio p{
+    padding-top: 8px;
+    padding-left: 100px;
+   color:#e0d7da;
+   font-size: 18px;
+}
+.locatio a{
+    text-decoration: none;
+   
+}
+
 /* ----------services-------------------- */
-#services{
+/* #services{
     padding: 30px 0;
 
 }
@@ -262,14 +294,17 @@ nav ul li a:hover::after{
     /* display: flex;
     width: 80%; */
  
-}
+/* } */
 
 
 .sub-title{
     padding-bottom: 40px;
    
 }
-.services-list div{
+.row{
+    padding: 20px;
+}
+/* .services-list div{
     background: #262626;
     padding: 40px;
     font-size: 13px;
@@ -297,7 +332,19 @@ nav ul li a:hover::after{
 .services-list div:hover{
     background: #ff004f;
     transform: translateY(-10px);
+} 
+.dat{
+    display: flex;
+    justify-content: space-around;
 }
+.date{
+    font-size: 24px;
+    font-weight: 300;
+}
+.age{
+    font-size: 24px;
+    font-weight: 300;  
+} */
 
 /* --------------projects---------------------- */
 #project{
@@ -423,6 +470,9 @@ nav ul li a:hover::after{
     transform: translateY(-5px);
 
 }
+
+
+
 .btn.btn2{
     display: inline-block;
     background:#ff004f ;
@@ -449,7 +499,11 @@ form btn2{
     margin-top: 20px;
     cursor: pointer;
 }
-/* -------------------css for small screens--------------- */
+.social-icons  img{
+height: 30px;
+width: 30px;
+}
+/* -------------------css for mobile screens--------------- */
 nav .fa-solid{
     display: none;
 }
@@ -474,8 +528,8 @@ nav .fa-solid{
         background: #ff004f;
         position: fixed;
         top: 0;
-        right: -160px;
-        width: 160px;
+        right: -140px;
+        width: 140px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
