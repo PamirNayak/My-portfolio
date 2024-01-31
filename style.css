@@ -188,13 +188,6 @@ nav ul li a:hover::after{
     animation: progress 0.4s ease-in-out forwards ;
     opacity: 0;
 }
-/* #experience{
-   list-style-type: none;
-} */
-.dob{
-    display: flex;
-    justify-content: space-between;
-}
 @keyframes progress {
    0%{
     width: 0;
@@ -255,7 +248,6 @@ nav ul li a:hover::after{
    color:#b54769;
    font-size: 18px;
 }
-
 .edu p{
     color: white;
     font-size: 16px;
@@ -263,23 +255,17 @@ nav ul li a:hover::after{
 .edu{
     padding-top: 10px;
 }
-
 .colleg p{
+    color: #fff;
+    font-size: 18px;
     padding-top: 8px;
-   color: #e0d7da;
-   font-size: 18px;
 }
 .locatio p{
     padding-top: 8px;
     padding-left: 100px;
-   color:#e0d7da;
+   color: #fff;;
    font-size: 18px;
 }
-.locatio a{
-    text-decoration: none;
-   
-}
-
 /* ----------services-------------------- */
 /* #services{
     padding: 30px 0;
@@ -471,7 +457,9 @@ nav ul li a:hover::after{
 
 }
 
-
+.social-icons img{
+    height: 40px;
+}
 
 .btn.btn2{
     display: inline-block;
